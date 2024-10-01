@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../component/Layout'
 import data from '../data/data'
 import { Link } from 'react-router-dom'
 
