@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import MenuIcon from '@mui/icons-material/Menu';
 const Navbar = () => {
   return (
     <div className="flex justify-between h-28 bg-blue-200 sm:px-10 md:px-20">
@@ -12,7 +11,7 @@ const Navbar = () => {
       
       </div>
       <div className="md:hidden text-2xl">
-  <MenuIcon/>
+
  </div>
      </div>
      {/* right */}
