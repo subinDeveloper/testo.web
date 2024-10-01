@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
-    <Layout>
+    <div>
       <div className='p-10 flex justify-center flex-col gap-2' >
       <div className="">
       <img src="https://media.istockphoto.com/id/1163284610/photo/very-stylish-indian-gourmet-restaurant.jpg?s=1024x1024&w=is&k=20&c=ev-6Z6pOo6_wl_ofm3AZ4wRILzcHeu5jMOiLRMskANU=" className='' alt="" />
@@ -23,7 +23,7 @@ const About = () => {
   </div>
 </div>
      </div>
-    </Layout>
+    </div>
   )
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import MenuIcon from '@mui/icons-material/Menu';
 const Navbar = () => {
   return (
@@ -17,12 +17,13 @@ const Navbar = () => {
      </div>
      {/* right */}
 <div className="text-2xl font-semibold gap-4 flex items-center hidden md:flex">
-<Link to="/branchers">Branches</Link>
+      <NavLink  to="/branchers">Branches</NavLink>
 
       
-<Link to="/about">About</Link>
-      <Link to="explore">Explore</Link>
-      <Link to="/menu">Menu</Link>
+      <NavLink  to="/about">About</NavLink>
+      <NavLink  to="explore">Explore</NavLink>
+      <NavLink  to="/menu">Menu</NavLink>
+      <NavLink  to="/admin">Admin</NavLink>
      
 </div>
     </div>

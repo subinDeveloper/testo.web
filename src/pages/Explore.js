@@ -3,11 +3,11 @@ import Layout from '../component/Layout'
 
 const Explore = () => {
   return (
-    <Layout>
+    <div>
       <div>
       <h1>explore</h1>
       </div>
-    </Layout>
+    </div>
   )
 }
 

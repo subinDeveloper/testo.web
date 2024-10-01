@@ -3,7 +3,7 @@ import Layout from '../component/Layout'
 import { Link } from 'react-router-dom'
 const Home = () => {
   return (
-   <Layout>
+   <div>
    
   <div className="h-full">
     <img src="https://images.pexels.com/photos/27389956/pexels-photo-27389956/free-photo-of-a-long-table-with-plates-and-silverware-on-it.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className='relative w-screen brightness-50' />
@@ -20,7 +20,7 @@ const Home = () => {
         
       </div>
   </div>
-   </Layout>
+   </div>
   )
 }
 

@@ -14,7 +14,7 @@ export const data = [{
     title : "Chikken Fry",
     price : "200 rupees",
     descrirtion : "",
-    image : "https://gingerskillet.com/wp-content/uploads/2023/09/keralachickenfry_F.jpg"
+   image : "https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600"
 },
 {
 id : 3,

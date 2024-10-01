@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Menu = () => {
   return (
-    <Layout>
+    <div>
       <h1 className="text-4xl font-bold underline pt-6 p-10">Eplore Our Food</h1>
       <div className="flex justify-center flex-wrap gap-3 ">
         
@@ -30,7 +30,7 @@ const Menu = () => {
         })
       }
       </div>
-    </Layout>
+    </div>
   )
 }
 
