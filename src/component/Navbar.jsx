@@ -8,7 +8,7 @@ const[extendNavbar,setExtendNavbar] = useState(false)
 // console.log(extendNavbar);
 
   return (
-    <div className={`flex justify-between bg-blue-200 sm:px-10 duration-500 lg:h-28 md:px-20 ${extendNavbar ? "h-72" : " h-28"}`}>
+    <div className={`flex justify-between bg-blue-200  duration-500 lg:h-28  ${extendNavbar ? "h-72" : " h-28"}`}>
      <div className="flex items-center gap-80">
      <div className="text-4xl font-semibold flex items-center gap-4">
      <img src="https://cdn-icons-png.flaticon.com/512/2558/2558214.png" className="sm w-24" alt="" />
