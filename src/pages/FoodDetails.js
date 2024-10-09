@@ -1,6 +1,7 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams,Link } from 'react-router-dom'
 import {data} from '../data/data'
+
 const FoodDetails = () => {
   const {id} = useParams()
   console.log(id);
@@ -16,8 +17,8 @@ console.log(food);
       <h1>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam dolore officiis qui molestias dolorum, possimus molestiae animi, perspiciatis eum aperiam corrupti. Odio consequatur saepe, qui dolorem aliquid a eligendi vitae.
       </h1>
-        <div>
-     
+        <div className="mt-16" >
+     <Link to="/menu" className=" px-2 py-2 font-semibold tracking-wide  rounded-md bg-black text-white">Back to menu</Link>
       </div>
     </div>
   )

@@ -8,10 +8,10 @@ const Food = () => {
         {
             data.map((item) => {
                 return(
-                    <div className='m-10'>
+                    <div>
                         <Link to={`/admin/food/${item.id}`}>
                         <div>
-                            <img src={item.image} alt="" className='h-40' />
+                            <img src={item.image} alt="" className='h-40 ' />
                 
                         </div>
                         <div>

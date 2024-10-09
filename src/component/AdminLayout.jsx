@@ -3,18 +3,14 @@ import { NavLink,Outlet} from 'react-router-dom'
 
 const AdminLayout = () => {
   return (
-    <div className="flex  text-xl font-serif justify-center gap-28 w-full h-full" >
- <div className="flex jsutify-center gap-4">
- <div className="flex flex-col">
- <NavLink className={({isActive}) => isActive ? "underline " : "" }  to=".">Dashboard</NavLink></div>
-
- <NavLink className={({isActive}) => isActive ? "underline " : "" }   to="income">Income</NavLink>
+    <div  >
+ <div className="bg-black text-white h-20 flex  items-center justify-center w-screen gap-20 ">
+      <NavLink className={({isActive}) => isActive ? "underline " : "" }  to=".">Dashboard</NavLink>
+      <NavLink className={({isActive}) => isActive ? "underline " : "" }   to="income">Income</NavLink>
       <NavLink className={({isActive}) => isActive ? "underline " : "" }  to="review">Review</NavLink>
       <NavLink className={({isActive}) => isActive ? "underline " : "" }  to="food">Food</NavLink>
-      <Outlet/>
  </div>
-
-       
+ <Outlet/>
     </div>
   )
 }
