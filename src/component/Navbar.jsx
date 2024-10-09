@@ -8,7 +8,7 @@ const[extendNavbar,setExtendNavbar] = useState(false)
 // console.log(extendNavbar);
 
   return (
-    <div className={`flex justify-between bg-blue-200  duration-500 lg:h-28  ${extendNavbar ? "h-72" : " h-28"}`}>
+    <div className={`flex justify-between bg-blue-200 items-start duration-500 lg:h-28  ${extendNavbar ? "h-96" : " h-28"}`}>
      <div className="flex items-center gap-80">
      <div className="text-4xl font-semibold flex items-center gap-4">
      <img src="https://cdn-icons-png.flaticon.com/512/2558/2558214.png" className="sm w-24" alt="" />
@@ -26,7 +26,7 @@ const[extendNavbar,setExtendNavbar] = useState(false)
  </div>
      </div>
     
-<div className={`text-2xl font-semibold items-center gap-6 flex flex-col lg:flex-row absolute top-5 lg:static duration-500 ${extendNavbar ? "right-10" : "right-[-100px] top-[-100px]"}`} >
+<div className={`text-2xl font-semibold items-center gap-6 flex flex-col lg:flex-row absolute top-32 lg:static duration-500 ${extendNavbar ? "left-10" : "left-[-100px] top-[-100px]"}`} >
       <NavLink  to="/branchers">Branches</NavLink>
       <NavLink  to="/about">About</NavLink>
       <NavLink  to="explore">Explore</NavLink>
